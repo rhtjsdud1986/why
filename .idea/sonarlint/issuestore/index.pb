@@ -6,8 +6,6 @@ d
 P
  app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 d
-4app/src/main/java/com/gabiest/aion/NoteActivity.java,1\9\1952c846fc711cac129a057837af4565344e2838
-d
 4app/src/main/java/com/gabiest/aion/ShopActivity.java,5\5\55c29ee43d5ac656088184667ac4b1aa8cf159b7
 d
 4app/src/main/java/com/gabiest/aion/HomeActivity.java,4\2\42e9012eb7b014dc3e76f6b0feefcb9907956d8b
@@ -47,3 +45,12 @@ g
 app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
 F
 app/proguard-rules.pro,9\e\9e08934d811afe28fbc77aaa3c0d747b94348db9
+L
+.idea/codeStyles/Project.xml,6\e\6ecd6000a7b6f4a2884412ff19f74193ed089648
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+e
+5app/src/main/java/com/gabiest/aion/MoneyActivity.java,1\1\11f1adce2876840be3ebf5068bc8fb500a9011fa
+e
+5app/src/main/java/com/gabiest/aion/DiaryActivity.java,2\1\217e8485330f24c6f1360e1c7aa4ccdc3b16c5a4

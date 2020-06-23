@@ -4,12 +4,15 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class NoteActivity extends AppCompatActivity {
+public class PlannerActivity extends AppCompatActivity {
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_note);
+        setContentView(R.layout.activity_planner);
     }
 
 

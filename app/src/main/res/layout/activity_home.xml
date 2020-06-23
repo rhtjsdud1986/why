@@ -9,10 +9,12 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="78dp"
         android:onClick="goToHomeActivity"
         android:text="메인화면"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button2"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/openButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button2"
@@ -27,10 +29,12 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="78dp"
         android:onClick="goToLookActivity"
         android:text="구경하기"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button2"
-        app:layout_constraintStart_toEndOf="@+id/button2" />
+        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button4"
@@ -41,56 +45,88 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="0dp"
-        android:layout_height="266dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginLeft="1dp"
-        android:layout_marginTop="67dp"
-        android:onClick="goToNoteActivity"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
-        app:layout_constraintStart_toStartOf="@+id/imageButton3"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:srcCompat="@android:drawable/ic_input_add" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="166dp"
-        android:layout_height="266dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginLeft="1dp"
-        android:layout_marginEnd="39dp"
-        android:layout_marginRight="39dp"
-        android:layout_marginBottom="85dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton3"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
-        app:srcCompat="@android:drawable/ic_lock_lock" />
-
-    <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/lock"
         app:layout_constraintBottom_toTopOf="@+id/imageButton4"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton4"
-        app:layout_constraintStart_toStartOf="@+id/imageButton4"
-        app:layout_constraintTop_toTopOf="@+id/imageButton"
-        app:srcCompat="@android:drawable/ic_lock_lock" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/openButton"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="85dp"
+        android:background="@drawable/lock"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton3"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="166dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="39dp"
-        android:layout_marginLeft="39dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginRight="1dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton4"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="85dp"
+        android:background="@drawable/lock"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageButton4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"
-        app:srcCompat="@android:drawable/ic_lock_lock" />
+        app:layout_constraintTop_toBottomOf="@+id/openButton" />
+
+    <ImageButton
+        android:id="@+id/openButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="#4B4B4B"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/diary"
+        android:layout_width="85dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="72dp"
+        android:background="#4D4D4D"
+        android:text="일기"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="@+id/openButton"
+        app:layout_constraintTop_toTopOf="@+id/openButton" />
+
+    <Button
+        android:id="@+id/money"
+        android:layout_width="85dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:background="#4D4D4D"
+        android:text="가계부"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="@+id/diary"
+        app:layout_constraintTop_toBottomOf="@+id/diary" />
+
+    <Button
+        android:id="@+id/planner"
+        android:layout_width="85dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:background="#4D4D4D"
+        android:text="플래너"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="@+id/money"
+        app:layout_constraintTop_toBottomOf="@+id/money" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

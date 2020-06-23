@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1088024377500",
+    "firebase_url": "https://aion-firstdb.firebaseio.com",
+    "project_id": "aion-firstdb",
+    "storage_bucket": "aion-firstdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088024377500:android:2a3c63cfbea6bed7a7d559",
+        "android_client_info": {
+          "package_name": "com.gabiest.aion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088024377500-v1h7sbdsjenttfk7bqof8kq6a9ktsfjb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gabiest.aion",
+            "certificate_hash": "56ab1e1c16816d4301a4b2b1e234f9f3c4317368"
+          }
+        },
+        {
+          "client_id": "1088024377500-cv0fsk1dh6p250vbb4vlei4duh3mtf7u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu7vOB8r_GoyWDwzJY2pN3lwaLUaAvFTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088024377500-cv0fsk1dh6p250vbb4vlei4duh3mtf7u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

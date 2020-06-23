@@ -13,6 +13,10 @@ public class ShopActivity extends AppCompatActivity {
         Intent intent = new Intent (this, HomeActivity.class);
         startActivity(intent);
     }
+    public void goToLookActivity (View view){
+        Intent intent = new Intent (this, LookActivity.class);
+        startActivity(intent);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
