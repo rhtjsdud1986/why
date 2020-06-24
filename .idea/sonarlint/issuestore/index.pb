@@ -60,9 +60,7 @@ Z
 *app/src/main/res/layout/activity_diary.xml,7\0\70dfe91990c6a1bc04a5512fcbff3ac8040b8576
 Y
 )app/src/main/res/layout/activity_home.xml,8\4\84bbfd95b490b92591d2b037417f036942315d57
-Y
-)app/src/main/res/layout/activity_main.xml,7\6\76b07e40f24cce093536731477540f12e7da3cb6
-\
-,app/src/main/res/layout/activity_planner.xml,e\d\ed1628bba77ccfc1eb44c74d4fcff7bad915d92a
 H
 app/google-services.json,f\d\fd8d34b142d02ec743a8efefefd2c097961666e9
+j
+:app/src/main/java/com/gabiest/aion/ShopdetailActivity.java,0\6\06ced392b768b1d32fa66c1401bd163eb3300eba
