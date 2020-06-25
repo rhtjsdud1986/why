@@ -1,6 +1,8 @@
 package com.gabiest.aion;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
@@ -12,6 +14,18 @@ public class LookActivity extends AppCompatActivity {
 //
 //    public FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
 //    public DatabaseReference databaseReference = firebaseDatabase.getReference();
+    public void goToHomeActivity (View view){
+        Intent goHome = new Intent (this, HomeActivity.class);
+        startActivity(goHome);
+    }
+    public void goToShopActivity (View view){
+        Intent goShop = new Intent (this, ShopActivity.class);
+        startActivity(goShop);
+    }
+    public void goToLookActivity (View view){
+        Intent goLook = new Intent (this, LookActivity.class);
+        startActivity(goLook);
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

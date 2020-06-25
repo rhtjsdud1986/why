@@ -64,3 +64,11 @@ H
 app/google-services.json,f\d\fd8d34b142d02ec743a8efefefd2c097961666e9
 j
 :app/src/main/java/com/gabiest/aion/ShopdetailActivity.java,0\6\06ced392b768b1d32fa66c1401bd163eb3300eba
+Y
+)app/src/main/res/layout/activity_main.xml,7\6\76b07e40f24cce093536731477540f12e7da3cb6
+Z
+*app/src/main/res/layout/activity_money.xml,2\6\2632edba251d3e5da128554682dd8cb26c7c1aa6
+Y
+)app/src/main/res/layout/activity_shop.xml,a\0\a07e4b3d325ee8dfdb0b4bffe0c0520d68d761bd
+_
+/app/src/main/res/layout/activity_shopdetail.xml,7\b\7be24ef39f94fb85f6b7aa15b63904d3728a2baf
